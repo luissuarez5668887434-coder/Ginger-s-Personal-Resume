@@ -6,7 +6,7 @@
 
 body {
     font-family: "SimSun", "宋体", serif;
-    background-color: #f5f9ff; /* 浅蓝色背景 */
+    background-color: #f5f9ff;
     color: #333;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #005f73; /* 深蓝色 */
+    color: #005f73;
 }
 
 h1 {
@@ -41,7 +41,7 @@ p {
 }
 
 a {
-    color: #00aaff; /* 浅蓝色链接 */
+    color: #00aaff;
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ section {
 }
 
 #hero {
-    background-color: #e1f5fe; /* 淡蓝色 */
+    background-color: #e1f5fe;
     color: #003366;
     text-align: center;
     padding: 100px 0;
@@ -63,7 +63,7 @@ section {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00aaff; /* 浅蓝色按钮 */
+    background-color: #00aaff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -89,6 +89,25 @@ section {
     border-radius: 5px;
 }
 
+#projects .project-link {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+#achievements .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+#achievements .progress {
+    height: 100%;
+    background-color: #00aaff;
+    border-radius: 5px;
+}
+
 form input, form textarea {
     width: 100%;
     padding: 10px;
@@ -99,7 +118,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background-color: #00aaff; /* 浅蓝色按钮 */
+    background-color: #00aaff;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -114,6 +133,6 @@ form button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #003366; /* 深蓝色底部 */
+    background-color: #003366;
     color: #fff;
 }
