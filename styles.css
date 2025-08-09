@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SimSun", "宋体", serif;
+    background-color: #f5f9ff; /* 浅蓝色背景 */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #005f73; /* 深蓝色 */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00aaff; /* 浅蓝色链接 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#hero {
+    background-color: #e1f5fe; /* 淡蓝色 */
+    color: #003366;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff; /* 浅蓝色按钮 */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #007acc;
+}
+
+#about, #projects, #achievements, #portfolio, #contact {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project-card, #portfolio .portfolio-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00aaff; /* 浅蓝色按钮 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #007acc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366; /* 深蓝色底部 */
+    color: #fff;
+}
